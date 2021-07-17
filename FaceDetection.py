@@ -314,7 +314,7 @@ plt.xlabel("NonFacesNumbers")
 plt.ylabel("Accuracy")
 plt.show()
 
-"""# Bonus"""
+"""# Bonus """
 
 xtrain1,xtest1,ytrain1,ytest1 = train_test_split(D,y, test_size=0.3, random_state=42 ,stratify=y)
 ytrain1=np.array(ytrain1)
